@@ -150,6 +150,7 @@ const normalize = css`
 
   img {
     border-style: none;
+    max-width: 100%;
   }
 
   /* Forms
