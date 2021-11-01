@@ -9,7 +9,7 @@ export const Title = styled.h1`
   font-weight: ${theme.weight.semibold};
   font-size: ${theme.fontSize.title};
   margin-bottom: 2px;
-  margin-top: 16px;
+  margin-top: 0px;
 `;
 
 export const Subtext = styled.span`

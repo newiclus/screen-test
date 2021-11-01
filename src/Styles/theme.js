@@ -12,6 +12,7 @@ export const theme = {
     default: '1em',
     text: '0.8125em',
     title: '1.625em',
+    subtitle: '1.125em',
   },
   colors: {
     black: '#000000',

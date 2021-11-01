@@ -1,4 +1,5 @@
 import React from 'react';
+import ns from 'number-string';
 import PropTypes from 'prop-types';
 
 import { Content, Title, Subtext } from './Raised.styled';
@@ -6,7 +7,7 @@ import { Content, Title, Subtext } from './Raised.styled';
 function Raised({ amount, mt }) {
   return (
     <Content>
-      <Title>${amount}</Title>
+      <Title>{ns.toMoney(amount)}</Title>
       <Subtext>(MT {mt})</Subtext>
     </Content>
   );
