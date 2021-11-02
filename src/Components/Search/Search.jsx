@@ -10,7 +10,8 @@ function Search({ data }) {
   const [currentList, setCurrentList] = useState(users);
 
   const getUsersFiltering = (query, dataList) => {
-    const matchPattern = (element) => element.toLowerCase().includes(query);
+    const matchPattern = (element) =>
+      element.toLowerCase().includes(query.toLowerCase());
 
     if (dataList && dataList.length > 0) {
       return dataList.filter(
