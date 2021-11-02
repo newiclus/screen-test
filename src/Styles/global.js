@@ -33,4 +33,6 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0 auto;
     padding: 15px 10px;
   }
+
+  .material-icons.blueSky { color: ${theme.colors.blueSky}; }
 `;
